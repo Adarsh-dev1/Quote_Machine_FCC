@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+window.onload= init;
+function init(){
+  generateQuote()
+}
+
+function generateQuote(){
+  console.log("quote Generated")
+}
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <wrapper id="quote-box">
+
+      <div id="text">
+        
+        <div id="author">
+          <button id="new-quote" onClick={generateQuote}>New Quote</button>
+        </div>
+
+        <a href="twitter.com/intent/tweet" id="tweet-quote">Tweet</a>
+
+      </div>
+
+
+      </wrapper>
     </div>
   );
 }
