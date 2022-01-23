@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Quote_Machine_FCC/static/css/main.f5bcf62a.css",
+    "main.js": "/Quote_Machine_FCC/static/js/main.edeab3c8.js",
+    "static/media/bootstrap-icons.woff?": "/Quote_Machine_FCC/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
+    "static/media/bootstrap-icons.woff2?": "/Quote_Machine_FCC/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
+    "index.html": "/Quote_Machine_FCC/index.html",
+    "main.f5bcf62a.css.map": "/Quote_Machine_FCC/static/css/main.f5bcf62a.css.map",
+    "main.edeab3c8.js.map": "/Quote_Machine_FCC/static/js/main.edeab3c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5bcf62a.css",
+    "static/js/main.edeab3c8.js"
+  ]
+}
